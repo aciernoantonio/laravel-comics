@@ -1,1 +1,39 @@
-//
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$dc-primary: #0282F9;
+$dc-banner-bg: #1C1C1C;
+$dc-footer-bg: #303030;
+$dc-text-dark: #464646;
+$dc-text-white: #FFFFF2;
+$dc-text-grey: #797777;
+
+.text-white{
+    color: white;
+}
+
+.site_header{
+
+    .top-banner{
+        background-color: $dc-primary;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .nav-links{
+
+        a{
+            text-decoration: none;
+            color: $dc-text-dark; 
+            font-weight: 600;
+
+            i{
+                color: $dc-primary;
+            }
+        }
+        
+    }
+
+}
+
