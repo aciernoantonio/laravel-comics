@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/app', function () {
-    return view('layouts.app');
-});
+Route::get('/', function () {
+    $comics = config('comicsDb.comics');
+    //dd($comics);
+    return view('mainContent', compact('comics'));
+})->name('home');
+

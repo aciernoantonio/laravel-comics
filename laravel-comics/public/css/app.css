@@ -12191,7 +12191,7 @@ fieldset:disabled .btn {
   font-weight: 600;
 }
 
-.site_header .nav-links a i {
+.site_header .nav-links a .arrow-down {
   color: #0282F9;
 }
 

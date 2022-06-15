@@ -36,11 +36,15 @@
                 <a class="pe-4" href="">VIDEOS</a>
                 <a class="pe-4" href="">FANS</a>
                 <a class="pe-4" href="">NEWS</a>
-                <a href="">SHOP <i class="fa-solid fa-caret-down"></a>
+                <a class="arrow-down" href="">SHOP</a>
 
             </div>
 
-            <div class="col"></div>
+            <div class="col">
+            
+                
+
+            </div>
 
         </div>
 

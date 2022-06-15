@@ -26,18 +26,15 @@
         <!-- /.site_header -->
 
         <main class="site_main">
-            @include('partials.main')
+            @yield('content')
         </main>
         <!-- /.site_main -->
         
         <footer class="site_footer">
 
             @include('partials.footer')
-
-        <script src="{{asset('js/app.js')}}"></script>
-
         </footer>
         <!-- /.site_footer -->
-        
+        <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>
