@@ -35,6 +35,17 @@ $dc-text-grey: #797777;
         
     }
 
+    .searchbar{
+    
+        border-bottom: 2px solid $dc-primary;
+
+        input{
+            border: none;
+            text-align: right;
+        }
+    }
 }
+
+
 
 

@@ -12195,3 +12195,12 @@ fieldset:disabled .btn {
   color: #0282F9;
 }
 
+.site_header .searchbar {
+  border-bottom: 2px solid #0282F9;
+}
+
+.site_header .searchbar input {
+  border: none;
+  text-align: right;
+}
+

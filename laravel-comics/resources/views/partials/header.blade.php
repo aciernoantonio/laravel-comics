@@ -41,6 +41,11 @@
             </div>
 
             <div class="col">
+
+                <div class="searchbar">
+                    <input type="search" name="" id="" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i> 
+                </div>
             
                 
 
