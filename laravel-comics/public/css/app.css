@@ -12181,6 +12181,15 @@ fieldset:disabled .btn {
   background-color: #0282F9;
 }
 
+.site_header nav {
+  height: 112px;
+}
+
+.site_header nav .marked {
+  color: #0282F9;
+  border-bottom: 4px solid #0282F9;
+}
+
 .site_header .logo {
   width: 80px;
 }
@@ -12202,5 +12211,39 @@ fieldset:disabled .btn {
 .site_header .searchbar input {
   border: none;
   text-align: right;
+}
+
+.site_header .jumbo {
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  height: 40vh;
+}
+
+.site_main .comic-thumb {
+  height: 200px;
+  width: 200px;
+}
+
+.site_main .comic-section {
+  background-color: #1C1C1C;
+  color: white;
+  position: relative;
+}
+
+.site_main .comic-section .series {
+  background-color: #0282F9;
+  position: absolute;
+  bottom: 96%;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.site_main .comic-section .load-btn {
+  background-color: #0282F9;
+  padding: 0.8rem 3rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 

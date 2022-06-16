@@ -27,16 +27,16 @@
 
             <div class="col d-flex align-items-center nav-links">
 
-                <a class="pe-4" href="">CHARACTERS</a>
-                <a class="pe-4" href="">COMICS</a>
-                <a class="pe-4" href="">MOVIES</a>
-                <a class="pe-4" href="">TV</a>
-                <a class="pe-4" href="">GAMES</a>
-                <a class="pe-4" href="">COLLECTIBLES</a>
-                <a class="pe-4" href="">VIDEOS</a>
-                <a class="pe-4" href="">FANS</a>
-                <a class="pe-4" href="">NEWS</a>
-                <a class="arrow-down" href="">SHOP</a>
+                <a class="me-4" href="">CHARACTERS</a>
+                <a class="me-4 marked" href="">COMICS</a>
+                <a class="me-4" href="">MOVIES</a>
+                <a class="me-4" href="">TV</a>
+                <a class="me-4" href="">GAMES</a>
+                <a class="me-4" href="">COLLECTIBLES</a>
+                <a class="me-4" href="">VIDEOS</a>
+                <a class="me-4" href="">FANS</a>
+                <a class="me-4" href="">NEWS</a>
+                <a href="">SHOP</a>
 
             </div>
 
@@ -47,8 +47,6 @@
                     <i class="fa-solid fa-magnifying-glass"></i> 
                 </div>
             
-                
-
             </div>
 
         </div>
@@ -58,3 +56,9 @@
     </div>
 
 </nav>
+
+<div class="jumbo">
+
+
+
+</div>

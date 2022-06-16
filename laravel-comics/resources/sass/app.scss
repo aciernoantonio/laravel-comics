@@ -17,6 +17,16 @@ $dc-text-grey: #797777;
         background-color: $dc-primary;
     }
 
+    nav{
+        height: 112px;
+
+        .marked{
+            color: $dc-primary;
+            border-bottom: 4px solid $dc-primary;
+        }
+
+    }
+
     .logo{
         width: 80px;
     }
@@ -42,6 +52,42 @@ $dc-text-grey: #797777;
         input{
             border: none;
             text-align: right;
+        }
+    }
+
+    .jumbo{
+        background-image: url('/img/jumbotron.jpg');
+        background-size: cover;
+        height: 40vh;
+    }
+}
+
+.site_main{
+    .comic-thumb{
+        height: 200px;
+        width: 200px;
+    }
+
+    .comic-section{
+        background-color: $dc-banner-bg;
+        color: white;
+        position: relative;
+
+        .series{
+            background-color: $dc-primary;
+            position: absolute;
+            bottom: 96%;
+            padding: 0.5rem 1.5rem;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .load-btn{
+            background-color: $dc-primary;
+            padding: 0.8rem 3rem;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
         }
     }
 }
