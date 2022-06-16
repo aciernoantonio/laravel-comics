@@ -21,22 +21,23 @@
 
             <div class="col">
 
-                <img class="logo" src="{{asset('img/dc-logo.png')}}" alt="">
+                <a href="{{route('home')}}"><img class="logo" src="{{asset('img/dc-logo.png')}}" alt=""></a>
+                
 
             </div>
 
             <div class="col d-flex align-items-center nav-links">
 
-                <a class="me-4" href="">CHARACTERS</a>
-                <a class="me-4" href="">COMICS</a>
-                <a class="me-4" href="">MOVIES</a>
-                <a class="me-4" href="">TV</a>
-                <a class="me-4" href="">GAMES</a>
-                <a class="me-4" href="">COLLECTIBLES</a>
-                <a class="me-4" href="">VIDEOS</a>
-                <a class="me-4" href="">FANS</a>
-                <a class="me-4" href="">NEWS</a>
-                <a href="">SHOP</a>
+                <a class="me-4 {{Route::currentRouteName() === 'characters' ? 'text-primary' : ''}}" href="{{route('characters')}}">CHARACTERS</a>
+                <a class="me-4 {{Route::currentRouteName() === 'comics' ? 'text-primary' : ''}}" href="{{route('comics')}}">COMICS</a>
+                <a class="me-4 {{Route::currentRouteName() === 'movies' ? 'text-primary' : ''}}" href="{{route('movies')}}">MOVIES</a>
+                <a class="me-4 {{Route::currentRouteName() === 'tv' ? 'text-primary' : ''}}" href="{{route('tv')}}">TV</a>
+                <a class="me-4 {{Route::currentRouteName() === 'games' ? 'text-primary' : ''}}" href="{{route('games')}}">GAMES</a>
+                <a class="me-4 {{Route::currentRouteName() === 'collectibles' ? 'text-primary' : ''}}" href="{{route('collectibles')}}">COLLECTIBLES</a>
+                <a class="me-4 {{Route::currentRouteName() === 'video' ? 'text-primary' : ''}}" href="{{route('videos')}}">VIDEOS</a>
+                <a class="me-4 {{Route::currentRouteName() === 'fans' ? 'text-primary' : ''}}" href="{{route('fans')}}">FANS</a>
+                <a class="me-4 {{Route::currentRouteName() === 'news' ? 'text-primary' : ''}}" href="{{route('news')}}">NEWS</a>
+                <a class="{{Route::currentRouteName() === 'shop' ? 'text-primary' : ''}}" href="{{route('shop')}}">SHOP</a>
 
             </div>
 
