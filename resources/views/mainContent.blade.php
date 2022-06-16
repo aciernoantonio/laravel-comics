@@ -46,32 +46,33 @@
 
             <div class="col-2">
 
-                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+                <img class="product_img me-2" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+                DIGITAL COMICS
 
             </div>
 
             <div class="col-2">
 
-                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
-
+                <img class="product_img me-2" src="{{asset('img/buy-comics-merchandise.png')}}" alt="">
+                DC MERCHANDISE
             </div>
 
             <div class="col-2">
 
-                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
-
+                <img class="product_img me-2" src="{{asset('img/buy-comics-subscriptions.png')}}" alt="">
+                SUBSCRIPTION
             </div>
 
             <div class="col-2">
 
-                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
-
+                <img class="product_img me-2 shop" src="{{asset('img/buy-comics-shop-locator.png')}}" alt="">
+                COMIC SHOP LOCATOR
             </div>
 
             <div class="col-2">
 
-                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
-
+                <img class="product_img me-2" src="{{asset('img/buy-dc-power-visa.svg')}}" alt="">
+                DC POWER VISA
             </div>
 
         </div>

@@ -12245,9 +12245,15 @@ fieldset:disabled .btn {
 
 .site_main .dc-links {
   background-color: #0282F9;
+  color: white;
+  font-size: 0.75rem;
 }
 
 .site_main .dc-links .product_img {
-  width: 20px;
+  width: 50px;
+}
+
+.site_main .dc-links .shop {
+  width: 35px;
 }
 

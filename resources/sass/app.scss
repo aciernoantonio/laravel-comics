@@ -90,9 +90,15 @@ $dc-text-grey: #797777;
 
     .dc-links{
         background-color: $dc-primary;
+        color: white;
+        font-size: 0.75rem;
 
         .product_img{
-            width: 20px;
+            width: 50px;
+        }
+
+        .shop{
+            width: 35px;
         }
 
     }
