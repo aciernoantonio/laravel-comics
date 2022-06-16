@@ -38,4 +38,46 @@
 
 </div>
 
+<div class="dc-links py-4">
+
+    <div class="container">
+
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-2">
+
+                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+
+            </div>
+
+            <div class="col-2">
+
+                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+
+            </div>
+
+            <div class="col-2">
+
+                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+
+            </div>
+
+            <div class="col-2">
+
+                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+
+            </div>
+
+            <div class="col-2">
+
+                <img class="product_img" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 @endsection

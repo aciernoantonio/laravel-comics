@@ -28,7 +28,7 @@
             <div class="col d-flex align-items-center nav-links">
 
                 <a class="me-4" href="">CHARACTERS</a>
-                <a class="me-4 marked" href="">COMICS</a>
+                <a class="me-4" href="">COMICS</a>
                 <a class="me-4" href="">MOVIES</a>
                 <a class="me-4" href="">TV</a>
                 <a class="me-4" href="">GAMES</a>
@@ -48,6 +48,7 @@
                 </div>
             
             </div>
+            
 
         </div>
 
