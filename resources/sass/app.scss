@@ -104,6 +104,34 @@ $dc-text-grey: #797777;
     }
 }
 
+.site_footer{
+    background-image: url('../img/footer-bg.jpg');
+    height: 58vh;
+    background-size: cover;
+    color: white;
+
+    a{
+        text-decoration: none;
+        color: $dc-text-grey;
+    }
+
+    h3{
+        font-weight: bold;
+    }
+
+    .footer-bottom{
+        background-color: $dc-footer-bg;
+
+        .footer-btn{
+            text-decoration: none;
+            color: white;
+            border: 1px solid $dc-primary;
+            background-color: transparent;
+            padding: 0.75rem;
+        }
+    }
+}
+
 
 
 

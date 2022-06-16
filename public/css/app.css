@@ -12257,3 +12257,32 @@ fieldset:disabled .btn {
   width: 35px;
 }
 
+.site_footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  height: 58vh;
+  background-size: cover;
+  color: white;
+}
+
+.site_footer a {
+  text-decoration: none;
+  color: #797777;
+}
+
+.site_footer h3,
+.site_footer .h3 {
+  font-weight: bold;
+}
+
+.site_footer .footer-bottom {
+  background-color: #303030;
+}
+
+.site_footer .footer-bottom .footer-btn {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #0282F9;
+  background-color: transparent;
+  padding: 0.75rem;
+}
+
