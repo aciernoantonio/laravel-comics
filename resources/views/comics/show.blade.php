@@ -79,7 +79,7 @@
 
     <div class="container">
 
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-start">
 
             <div class="col flex-column">
 
