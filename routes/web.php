@@ -17,7 +17,17 @@ Route::get('/', function () {
     $comics = config('comicsDb.comics');
     //dd($comics);
     return view('mainContent', compact('comics'));
-})->name('home');
+})->name('home.index');
+
+
+
+Route::get('/{id}', function ($id) {
+    $comics = config('comicsDb.comics');
+    $comic = $comics[$id];
+    return view('comics.show', compact('comic'));
+})->name('single-comic.show');
+
+
 
 Route::get('/characters', function () {
     return view('characters');
@@ -26,7 +36,14 @@ Route::get('/characters', function () {
 Route::get('/comics', function () {
     $comics = config('comicsDb.comics');
     return view('comics', compact('comics'));
-})->name('comics');
+})->name('comics.index');
+
+/* Route::get('/comics{id}', function ($id) {
+    $comics = config('comicsDb.comics');
+    //dd($comics);
+    $comic = $comics[$id];
+    return view('comics.show', compact('comic'));
+})->name('single-comic'); */
 
 Route::get('/movies', function () {
     return view('movies');

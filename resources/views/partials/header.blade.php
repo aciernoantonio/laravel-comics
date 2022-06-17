@@ -21,7 +21,7 @@
 
             <div class="col">
 
-                <a href="{{route('home')}}"><img class="logo" src="{{asset('img/dc-logo.png')}}" alt=""></a>
+                <a href="{{route('home.index')}}"><img class="logo" src="{{asset('img/dc-logo.png')}}" alt=""></a>
                 
 
             </div>
@@ -29,7 +29,7 @@
             <div class="col d-flex align-items-center nav-links">
 
                 <a class="me-4 {{Route::currentRouteName() === 'characters' ? 'text-primary' : ''}}" href="{{route('characters')}}">CHARACTERS</a>
-                <a class="me-4 {{Route::currentRouteName() === 'comics' ? 'text-primary' : ''}}" href="{{route('comics')}}">COMICS</a>
+                <a class="me-4 {{Route::currentRouteName() === 'comics' ? 'text-primary' : ''}}" href="{{route('comics.index')}}">COMICS</a>
                 <a class="me-4 {{Route::currentRouteName() === 'movies' ? 'text-primary' : ''}}" href="{{route('movies')}}">MOVIES</a>
                 <a class="me-4 {{Route::currentRouteName() === 'tv' ? 'text-primary' : ''}}" href="{{route('tv')}}">TV</a>
                 <a class="me-4 {{Route::currentRouteName() === 'games' ? 'text-primary' : ''}}" href="{{route('games')}}">GAMES</a>

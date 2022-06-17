@@ -65,6 +65,21 @@ $dc-text-grey: #797777;
         width: 200px;
     }
 
+    .comic-card{
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .bg-banner{
+        background-color: #6bcfee;
+    }
+
+    .bg-light-green{
+        background-color: #01bb04;
+    }
+
     .comic-section{
         background-color: $dc-banner-bg;
         color: white;
@@ -86,6 +101,7 @@ $dc-text-grey: #797777;
             color: white;
             font-weight: bold;
         }
+
     }
 
     .dc-links{
@@ -101,6 +117,13 @@ $dc-text-grey: #797777;
             width: 35px;
         }
 
+    }
+
+    .comic-shop{
+        img{
+            filter: brightness(0.8);
+            width: 50px;
+        }
     }
 }
 
